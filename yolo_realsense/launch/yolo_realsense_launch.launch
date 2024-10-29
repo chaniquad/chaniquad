@@ -1,0 +1,7 @@
+<launch>
+    <!-- YOLO Realsense Node -->
+    <node pkg="yolo_realsense" type="yolo_realsense_node.py" name="yolo_realsense_node" output="screen" />
+
+    <!-- Detection Subscriber Node -->
+    <node pkg="yolo_realsense" type="detection_subscriber_node.py" name="detection_subscriber_node" output="screen" />
+</launch>
